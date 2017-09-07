@@ -1,0 +1,222 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.i005114.primerparciali005214.RelativeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rl1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/borde2"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/pizza" />
+
+                    <TextView
+                        android:id="@+id/img2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:text="@string/txt_4"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp" />
+
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:text="@string/txt_5"
+                        android:textSize="15dp" />
+
+
+                    <Button
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/t1"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/txt_6"
+                        android:textColor="@color/bnvColorIcon" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/borde2"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/pizza" />
+
+                    <TextView
+                        android:id="@+id/img2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:text="@string/txt_4"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp" />
+
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:text="@string/txt_5"
+                        android:textSize="15dp" />
+
+
+                    <Button
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/t1"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/txt_6"
+                        android:textColor="@color/bnvColorIcon" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/borde2"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/pizza" />
+
+                    <TextView
+                        android:id="@+id/img2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:text="@string/txt_4"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp" />
+
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:text="@string/txt_5"
+                        android:textSize="15dp" />
+
+
+                    <Button
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/t1"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/txt_6"
+                        android:textColor="@color/bnvColorIcon" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/borde2"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/pizza" />
+
+                    <TextView
+                        android:id="@+id/img2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:text="@string/txt_4"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp" />
+
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:text="@string/txt_5"
+                        android:textSize="15dp" />
+
+
+                    <Button
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/t1"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/img1"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/txt_6"
+                        android:textColor="@color/bnvColorIcon" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+</FrameLayout>
