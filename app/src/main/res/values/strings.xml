@@ -12,4 +12,9 @@
     <string name="txt_4">Mi comida favorita</string>
     <string name="txt_5">\"Mi comida favorita es la pizza\" Todos y cada uno tiene gustos diferentes en lo que respecta  al alimentacion</string>
     <string name="txt_6">ADICIONAR AL CARRITO</string>
+    <string name="str">Nombres</string>
+    <string name="stY">Apellidos</string>
+    <string name="stoo">Telefonos</string>
+    <string name="btn_1">CREAR CUENTA</string>
+    <string name="btn_2">INGRESAR A LA CUENTA</string>
 </resources>
